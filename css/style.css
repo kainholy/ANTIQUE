@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background: #D4BA9F;
+    color: #432;
+    text-align: center;
+}
+
+
+/* HEADER */
+.header {
+    background: #BEAD9C;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.header h1 {
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    padding-right: 60px;
+    font-size: 25px;
+}
+
+.nav li a {
+    color: #432;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+  color: rgb(129, 97, 65);
+}
+
+
+/* TOP */
+.top {
+    background-color: rgb(19, 9, 7);
+    background-image: url('../img/cafe_1.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-blend-mode: screen;
+    width: 100%;
+    height: 732px;
+}
+
+.top-text {
+    text-align: center;
+    padding-top: 260px;
+    color: #fff;
+}
+
+.top-text h1 {
+    font-size: 60px;
+}
+
+.top-text h2 {
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.top-p {
+    padding-top: 30px;
+}
+
+.top-text p {
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+
+/* CONCEPT */
+
+.concept-all {
+    background: url('../img/cafe_2.png') no-repeat right top / 60vw auto;
+    width: 90%;
+    height: 500px;
+}
+
+.concept-text {
+    padding-top: 140px;
+    padding-right: 370px;
+}
+
+.concept-text h1 {
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 25px;
+    text-shadow: 3px 3px 3px #808080;
+}
+
+
+
+/* NEWS */
+.section-title {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.section-title img {
+    width: 4%;
+    padding-bottom: 15px;
+}
+
+.section-title h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.section-title h1::after {
+    position: relative;
+    content: "";
+    display: block;
+    border-bottom: solid 2px #432;
+    bottom: -17px;
+    width: 6%;
+    margin-left: 47%;
+}
+
+.section-title p {
+    font-size: 23px;
+    padding-top: 25px;
+}
+
+.news-text p {
+    font-size: 1.1rem;
+    padding-bottom: 40px;
+}
+
+.news-text p::after {
+    position: relative;
+    content: "";
+    display: block;
+    border-bottom: solid 1px #432;
+    bottom: -15px;
+    width: 56%;
+    margin-left: 22%;
+}
+
+/* MENU */
+.inner {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.menu-detail img {
+    width: 80%;
+}
+
+.menu-detail p {
+    padding-top: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.menu-detail p strong {
+    font-size: 20px;
+}
+
+.link {
+    padding-top: 80px;
+}
+
+.link p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* CONTACT */
+.container {
+    padding-left: 20%;
+    display: flex;
+}
+
+.address {
+    padding-right: 70px;
+}
+
+.address h1 {
+    font-size: 33px;
+    padding-bottom: 50px;
+}
+
+.address h1::after {
+    position: relative;
+    content: "";
+    display: block;
+    border-bottom: solid 2px #432;
+    bottom: -17px;
+    width: 100%;
+}
+
+.address p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.button {
+    padding-top: 110px;
+    padding-bottom: 130px;
+}
+
+.button a {
+    background-color: #432;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    padding: 18px 32px;
+}
+
+.button a:hover {
+    background-color: rgb(129, 97, 65);
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    padding: 18px 32px;
+}
+
+/* FOOTER */
+footer {
+    background: #432;
+}
+
+footer p {
+    padding: 50px;
+    color: #fff;
+}
